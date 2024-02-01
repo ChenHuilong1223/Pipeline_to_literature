@@ -62,7 +62,7 @@ Enter the following command in the terminal to see help on using the program:
 python generate_query_statements_and_links_to_literature_database_searches_based_on_keywords.py -h
 ```
 
-![image-20240201144701909](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240201144701909.png)
+![6](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/6.png)
 
 All parameters and descriptions are listed below:
 
@@ -84,7 +84,7 @@ keyword 3
 
 As shown in the figure below:
 
-![image-20240201150428130](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240201150428130.png)
+![7](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/7.png)
 
 **Practical training:**
 
@@ -94,11 +94,11 @@ python generate_query_statements_and_links_to_literature_database_searches_based
 
 Outputs the contents of the file:
 
-![image-20240201150847147](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240201150847147.png)
+![8](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/8.png)
 
-![image-20240201151148043](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240201151148043.png)
+![9](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/9.png)
 
-![image-20240201151409344](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240201151409344.png)
+![10](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/10.png)
 
 After that, according to the results given by this program, go directly from PubMed or Web of Science to download the results of searching literature information. You can refer to the next steps in the section **1. common approach**.
 
@@ -108,7 +108,7 @@ After that, according to the results given by this program, go directly from Pub
 
 Literature collected from different databases was combined into one file through MS Excel. We keep only the Title and DOI number and save it as an xlsx file. Example:
 
-![6](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/6.png)
+![11](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/11.png)
 
 The file was then processed to remove duplicates using the Python script.
 
@@ -130,7 +130,7 @@ Enter the following command in the terminal to see help on using the program:
 python remove_duplicates.py -h
 ```
 
-![image-20240201191846460](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240201191846460.png)
+![12](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/12.png)
 
 All parameters and descriptions are listed below:
 
@@ -147,7 +147,7 @@ python remove_duplicates.py -i all_database_literatures_data.xlsx -o all_databas
 
 Outputs the contents of the file:
 
-![image-20240201192413535](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240201192413535.png)
+![13](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/13.png)
 
 ## Step 3
 
@@ -177,7 +177,7 @@ Enter the following command in the terminal to see help on using the program:
 python batch_download_literatures_pdf_alpha_test.py -h
 ```
 
-![image-20240201193246426](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240201193246426.png)
+![14](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/14.png)
 
 **Note:** This script is for test use by interested parties only, and in order to comply with the publisher's copyright, please download it from the official link of the literature publisher, or purchase the target literature you need.
 
@@ -205,7 +205,7 @@ Enter the following command in the terminal to see help on using the program:
 python batch_pdf_file_to_text_file.py -h
 ```
 
-![image-20240201194134075](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240201194134075.png)
+![15](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/15.png)
 
 All parameters and descriptions are listed below:
 
@@ -223,7 +223,7 @@ python batch_pdf_file_to_text_file.py -m 4 -i literatures_pdf -o literatures_tex
 
 View a text-formatted document from the leteratures_text folder as follows:
 
-![image-20240201195232993](C:\Users\DELL\AppData\Roaming\Typora\typora-user-images\image-20240201195232993.png)
+![16](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/16.png)
 
 **Note:** The file name of the document is logged in the terminal for failed conversions. Convenient for users to follow up.
 
