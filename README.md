@@ -20,13 +20,13 @@ Take the subject keywords of our current study (e.g. **Mycotoxin, enzyme, degrad
 
 ###### Search based on search keyword statements
 
-![1]([E:\typora\chl_export_folder\NLP-pipeline\1.png](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/1.png))
+![1](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/1.png)
 
 **Note:** When you use a literature database to search for relevant literature resources, we recommend that you optimize your keywords. For example, if your research area of interest is a physician topic, you should perform keyword validation at the MeSH URL (http://www.nlm.nih.gov/mesh/). This is to ensure that the most accurate research vocabulary is used. This maximizes the chance of ensuring that the literature resources searched in the database are the most accurate and relevant.
 
 ###### Download all retrieved literature information
 
-![2](E:\typora\chl_export_folder\NLP-pipeline\2.png)
+![2](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/2.png)
 
 
 
@@ -34,11 +34,11 @@ For Web of Science:
 
 Website: https://www.webofscience.com/wos/woscc/advanced-search
 
-![3](E:\typora\chl_export_folder\NLP-pipeline\3.png)
+![3](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/3.png)
 
-![4](E:\typora\chl_export_folder\NLP-pipeline\4.png)
+![4](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/4.png)
 
-![5](E:\typora\chl_export_folder\NLP-pipeline\5.png)
+![5](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/5.png)
 
 You can also supplement the relevant literature in other databases such as Google Scholar, Science Direct, etc.
 
@@ -108,7 +108,7 @@ After that, according to the results given by this program, go directly from Pub
 
 Literature collected from different databases was combined into one file through MS Excel. We keep only the Title and DOI number and save it as an xlsx file. Example:
 
-![6](E:\typora\chl_export_folder\NLP-pipeline\6.png)
+![6](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/6.png)
 
 The file was then processed to remove duplicates using the Python script.
 
