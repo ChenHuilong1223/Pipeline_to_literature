@@ -20,7 +20,7 @@ Take the subject keywords of our current study (e.g. **Mycotoxin, enzyme, degrad
 
 ###### Search based on search keyword statements
 
-![1](E:\typora\chl_export_folder\NLP-pipeline\1.png)
+![1]([E:\typora\chl_export_folder\NLP-pipeline\1.png](https://github.com/ChenHuilong1223/Pipeline_to_literature/blob/main/images/1.png))
 
 **Note:** When you use a literature database to search for relevant literature resources, we recommend that you optimize your keywords. For example, if your research area of interest is a physician topic, you should perform keyword validation at the MeSH URL (http://www.nlm.nih.gov/mesh/). This is to ensure that the most accurate research vocabulary is used. This maximizes the chance of ensuring that the literature resources searched in the database are the most accurate and relevant.
 
